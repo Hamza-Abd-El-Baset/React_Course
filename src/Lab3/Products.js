@@ -15,7 +15,7 @@ class Products extends Component {
             <div key={product.id} className="product">
                 <div>{product.name}</div>
                 <img src={product.img}></img>
-                <div>{product.category}</div>
+                <div>Category: {product.category}</div>
                 <div>Price: {product.price} LE</div>
                 <div className="description">{product.description}</div>
                 <Plus_Minus/>
