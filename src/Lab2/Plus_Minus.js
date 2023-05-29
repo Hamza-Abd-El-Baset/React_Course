@@ -1,3 +1,4 @@
+import "./Plus_Minus.css"
 import { Component } from "react";
 
 class Plus_Minus extends Component{
