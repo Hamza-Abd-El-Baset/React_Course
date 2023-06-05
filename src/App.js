@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 
+
 // import Function_Props from './Lab2/Function_Props';
 // import Class_Props from './Lab2/Class_Props';
 // import Login_Component from './Lab2/Login_Component';
@@ -8,7 +9,10 @@ import './App.css';
 
 import Products from "./Lab3/Products"
 import SignUp from "./Lab3/SignUp"
-import Login from './Lab3/Login';
+import Component1 from './Lab3/nested components/Component1';
+import { UserProvider } from './Lab3/nested components/UserContext';
+
+import PostsGet from './Lab3/PostsGet';
 
 function App() {
   return (
@@ -29,13 +33,20 @@ function App() {
       <br></br>
       <Products/>
 
-      <br></br>
-
+      <br></br> 
+      
       <SignUp/>
 
-      <Login/>
+      <br></br> 
+      <br></br> 
+      <UserProvider value="Comp1 Value">
+          <Component1/> 
+      </UserProvider>
+      <br></br>
 
+      <PostsGet/>
       
+
 
     </div>
   );
