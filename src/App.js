@@ -13,6 +13,7 @@ import Component1 from './Lab3/nested components/Component1';
 import { UserProvider } from './Lab3/nested components/UserContext';
 
 import PostsGet from './Lab3/PostsGet';
+import PostSend from './Lab3/PostSend';
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
 
       <PostsGet/>
       
-
+      <br/>
+      <PostSend/>
 
     </div>
   );
