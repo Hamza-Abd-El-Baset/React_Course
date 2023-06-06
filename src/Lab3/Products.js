@@ -1,7 +1,7 @@
 import './Products.css'
 
 import {products} from './ProductData'
-import Plus_Minus from '../Lab2/Plus_Minus'
+import Plus_Minus from '../Lab2/PlusMinus'
 
 import { Component } from 'react'
 

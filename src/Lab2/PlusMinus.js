@@ -1,7 +1,7 @@
-import "./Plus_Minus.css"
+import "./PlusMinus.css"
 import { Component } from "react";
 
-class Plus_Minus extends Component{
+class PlusMinus extends Component{
 
     constructor(props){
         super(props);
@@ -44,4 +44,4 @@ class Plus_Minus extends Component{
 
 }
 
-export default Plus_Minus;
+export default PlusMinus;

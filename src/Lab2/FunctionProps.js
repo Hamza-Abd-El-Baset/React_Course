@@ -1,6 +1,6 @@
 
 
-function Function_Props(props){
+function FunctionProps(props){
       
         const {name} = props;
             return(
@@ -11,4 +11,4 @@ function Function_Props(props){
             )
 }
 
-export default Function_Props;
+export default FunctionProps;
