@@ -15,6 +15,13 @@ import { UserProvider } from './Lab3/nested components/UserContext';
 import PostsGet from './Lab3/PostsGet';
 import PostSend from './Lab3/PostSend';
 
+import ProductsHooks from './Lab4/ProductsHooks';
+import SignUpHooks from './Lab4/SignUpHooks';
+import PostsGetHooks from './Lab4/PostsGetHooks';
+import PostSendHooks from './Lab4/PostSendHooks';
+import Component1Hooks from './Lab4/nested components/Component1Hooks';
+import { UserProviderHooks } from './Lab4/nested components/UserContextHooks';
+
 function App() {
   return (
     <div className="App">
@@ -50,7 +57,30 @@ function App() {
       <br/>
       <PostSend/>
 
-    </div>
+    
+
+    <br/>
+    <h1>Lab 4</h1>
+    <br></br>
+    <ProductsHooks/>
+
+    <br></br> 
+
+    <SignUpHooks/>
+
+    <br></br> 
+    <br></br> 
+    <UserProviderHooks value="Comp1Hooks Value">
+        <Component1Hooks/> 
+    </UserProviderHooks>
+    <br></br>
+
+    <PostsGetHooks/>
+
+    <br/>
+    <PostSendHooks/>
+
+  </div>
   );
 }
 
